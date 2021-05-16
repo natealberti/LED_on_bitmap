@@ -73,7 +73,6 @@ InitializeLED:
 	sw $t0, 5004($s0)
 	
 	
-	# you may just want to delte the holder stuff here #
 	lw $t0, GRAY # loading gray into the color slot
 	
 	# HOLDER #
